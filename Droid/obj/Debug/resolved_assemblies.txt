@@ -1,11 +1,19 @@
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/xamarinmap.Droid.dll
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/FormsViewGroup.dll
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/Xamarin.Android.Support.Animated.Vector.Drawable.dll
+/Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/Xamarin.Android.Support.Annotations.dll
+/Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/Xamarin.Android.Support.Compat.dll
+/Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/Xamarin.Android.Support.Core.UI.dll
+/Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/Xamarin.Android.Support.Core.Utils.dll
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/Xamarin.Android.Support.Design.dll
+/Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/Xamarin.Android.Support.Fragment.dll
+/Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/Xamarin.Android.Support.Media.Compat.dll
+/Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/Xamarin.Android.Support.Transition.dll
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/Xamarin.Android.Support.v4.dll
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/Xamarin.Android.Support.v7.AppCompat.dll
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/Xamarin.Android.Support.v7.CardView.dll
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/Xamarin.Android.Support.v7.MediaRouter.dll
+/Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/Xamarin.Android.Support.v7.Palette.dll
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/Xamarin.Android.Support.v7.RecyclerView.dll
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/Xamarin.Android.Support.Vector.Drawable.dll
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/Xamarin.Forms.Core.dll
@@ -17,6 +25,7 @@
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/Xamarin.GooglePlayServices.Base.dll
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/Xamarin.GooglePlayServices.Basement.dll
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/Xamarin.GooglePlayServices.Maps.dll
+/Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/Xamarin.GooglePlayServices.Tasks.dll
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/Java.Interop.dll
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/Mono.Android.dll
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/System.Core.dll
@@ -37,8 +46,8 @@
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/System.Linq.Expressions.dll
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/System.IO.dll
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/System.Dynamic.Runtime.dll
-/Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/System.Threading.dll
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/System.Runtime.Extensions.dll
+/Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/System.Threading.dll
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/System.Linq.dll
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/System.Reflection.Extensions.dll
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/android/assets/System.Resources.ResourceManager.dll
