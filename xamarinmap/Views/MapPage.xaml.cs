@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Threading.Tasks;
+using Plugin.Geolocator;
 using Xamarin.Forms;
 using Xamarin.Forms.Maps;
 using xamarinmap.Controls;
@@ -11,17 +13,19 @@ namespace xamarinmap.Views
     {
         bool isMapLoaded;
 
+
         public MapPage()
         {
             InitializeComponent();
-            CustomPin pin = new CustomPin 
-            { 
-                Pin = new Pin { Type = PinType.Place, Position = new Position(10.333928, 123.934259), Label = "My Current Location", Address = "Benedicto College"},
-                ID = "Xamarin",
-                Url = "http://google.com"
-            };
 
-            customMap.CustomPins = new List<CustomPin> { pin };
+			CustomPin pin = new CustomPin
+			{
+				Pin = new Pin { Type = PinType.Place, Position = new Position(10.333928, 123.934259), Label = "My Current Location", Address = "Benedicto College" },
+				ID = "Xamarin",
+				Url = "http://google.com"
+			};
+
+			customMap.CustomPins = new List<CustomPin> { pin };
 
 			customMap.Circle = new CustomCircle
 			{
@@ -29,7 +33,7 @@ namespace xamarinmap.Views
 				Radius = 300
 			};
 
-            customMap.Pins.Add(pin.Pin);
+			customMap.Pins.Add(pin.Pin);
 
 			customMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(10.333928, 123.934259), Distance.FromMiles(0.3)));
 			isMapLoaded = true;
@@ -38,6 +42,17 @@ namespace xamarinmap.Views
         {
             base.OnAppearing();
             customMap.MapType = MapType.Street;
+
+            //var position = GetPosition();
+            //Debug.WriteLine("Postion " + position.Result.Latitude);
+        }
+
+        async Task<Plugin.Geolocator.Abstractions.Position> GetPosition()
+        {
+			var locator = CrossGeolocator.Current;
+			locator.DesiredAccuracy = 50;
+
+            return await locator.GetPositionAsync(TimeSpan.FromSeconds(5));
         }
 
         void SliderValue_Changed(Object sender, ValueChangedEventArgs e)
