@@ -62,18 +62,6 @@ namespace xamarinmap.Droid.Controls
 
                     DrawCircles(new Point(pin.Pin.Position.Latitude, pin.Pin.Position.Longitude));
                 }
-
-
-
-				//var circleOptions = new CircleOptions();
-				//circleOptions.InvokeCenter(new LatLng(circle.Position.Latitude, circle.Position.Longitude));
-				//circleOptions.InvokeRadius(circle.Radius);
-				//circleOptions.InvokeFillColor(0X6688D5D2);
-				//circleOptions.InvokeStrokeColor(0X6688D5D2);
-				//circleOptions.InvokeStrokeWidth(0);
-
-				//NativeMap.AddCircle(circleOptions);
-
                 isDrawn = true;
             }
         }

@@ -11,7 +11,9 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <application android:label="Xamarin Map" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
+  <uses-feature android:name="android.hardware.location.gps" />
+  <uses-feature android:name="android.hardware.location.network" />
+  <application android:label="Xamarin Map" android:name="md55e781e489f097ac0a47ace2bccc35017.MainApplication" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
     <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyBpajdZSzV1FKW85UhozOMkRDk-UxEMHuo" />
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="xamarinmap.Droid" android:theme="@style/MyTheme" android:name="md55e781e489f097ac0a47ace2bccc35017.MainActivity">
       <intent-filter>
@@ -45,5 +47,4 @@
     <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:exported="false" />
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
   </application>
-  <uses-feature android:glEsVersion="0x00020000" android:required="true" />
 </manifest>
