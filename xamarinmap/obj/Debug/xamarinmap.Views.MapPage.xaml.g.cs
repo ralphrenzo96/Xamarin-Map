@@ -19,13 +19,13 @@ namespace xamarinmap.Views {
         private global::xamarinmap.Controls.CustomMap customMap;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Slider mapSlider;
+        private global::xamarinmap.Controls.CustomSlider mapSlider;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MapPage));
             customMap = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::xamarinmap.Controls.CustomMap>(this, "customMap");
-            mapSlider = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Slider>(this, "mapSlider");
+            mapSlider = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::xamarinmap.Controls.CustomSlider>(this, "mapSlider");
         }
     }
 }

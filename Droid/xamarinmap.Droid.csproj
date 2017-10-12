@@ -157,6 +157,7 @@
     <Compile Include="Controls\CustomMapRenderer.cs" />
     <Compile Include="MainApplication.cs" />
     <Compile Include="Controls\CustomButtonRenderer.cs" />
+    <Compile Include="Controls\CustomSliderRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

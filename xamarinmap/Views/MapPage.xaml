@@ -18,7 +18,7 @@
 
     <StackLayout Spacing = "0">
         <controls:CustomMap IsShowingUser = "true" x:Name = "customMap"/>
-        <Slider x:Name = "mapSlider" ValueChanged = "SliderValue_Changed" BackgroundColor = "#ECF0F1" Maximum = "18" Minimum = "1"/>
+        <controls:CustomSlider x:Name = "mapSlider" ValueChanged = "SliderValue_Changed" BackgroundColor = "Transparent" Opacity = "5" Maximum = "18" Minimum = "1"/>
         <Grid ColumnSpacing = "0">
             <controls:CustomButton Image = "map_street" Text = "Street" Grid.Column = "0" CommandParameter = "1" Style = "{StaticResource ButtonType}" Clicked = "MapType_Changed"/>
             <controls:CustomButton Image = "map_satellite" Text = "Satellite" Grid.Column = "1" CommandParameter = "2" Style = "{StaticResource ButtonType}" Clicked = "MapType_Changed"/>

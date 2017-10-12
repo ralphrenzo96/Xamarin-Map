@@ -45,6 +45,7 @@
     <Compile Include="Controls\CustomPin.cs" />
     <Compile Include="Controls\CustomCircle.cs" />
     <Compile Include="Controls\CustomButton.cs" />
+    <Compile Include="Controls\CustomSlider.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\" />
