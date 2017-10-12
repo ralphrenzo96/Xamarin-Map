@@ -2,6 +2,10 @@ xamarinmap.Droid.MainActivity, xamarinmap.Droid;md55e781e489f097ac0a47ace2bccc35
 xamarinmap.Droid.MainActivity, xamarinmap.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55e781e489f097ac0a47ace2bccc35017.MainActivity
 xamarinmap.Droid.MainActivity;md55e781e489f097ac0a47ace2bccc35017.MainActivity
 xamarinmap.droid.MainActivity;md55e781e489f097ac0a47ace2bccc35017.MainActivity
+xamarinmap.Droid.Controls.CustomMapRenderer, xamarinmap.Droid;md5152028bef9e6e3ae8fd7bec0386fb262.CustomMapRenderer
+xamarinmap.Droid.Controls.CustomMapRenderer, xamarinmap.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5152028bef9e6e3ae8fd7bec0386fb262.CustomMapRenderer
+xamarinmap.Droid.Controls.CustomMapRenderer;md5152028bef9e6e3ae8fd7bec0386fb262.CustomMapRenderer
+xamarinmap.droid.controls.CustomMapRenderer;md5152028bef9e6e3ae8fd7bec0386fb262.CustomMapRenderer
 Android.Support.Design.Widget.Snackbar/SnackbarActionClickImplementor, Xamarin.Android.Support.Design;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar+SnackbarActionClickImplementor, Xamarin.Android.Support.Design, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar.SnackbarActionClickImplementor;android.support.design.widget.Snackbar_SnackbarActionClickImplementor

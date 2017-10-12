@@ -1,3 +1,4 @@
+/Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/xamarinmap.Droid.csprojResolveAssemblyReference.cache
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/bin/Debug/xamarinmap.Droid.dll
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/bin/Debug/xamarinmap.Droid.pdb
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/bin/Debug/com.ralphrenzo.org.xamarin_map.apk
@@ -33,7 +34,6 @@
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/bin/Debug/Xamarin.Forms.Xaml.xml
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/bin/Debug/Xamarin.Forms.Maps.xml
-/Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/xamarinmap.Droid.csprojResolveAssemblyReference.cache
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/xamarinmap.Droid.csproj.CoreCompileInputs.cache
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/xamarinmap.Droid.dll
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/xamarinmap.Droid.pdb
@@ -45,5 +45,8 @@
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/res/drawable-hdpi/icon.png
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/res/drawable-xhdpi/icon.png
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/res/drawable-xxhdpi/icon.png
+/Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/res/drawable-hdpi/custompin.png
+/Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/res/drawable-xhdpi/custompin.png
+/Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/res/drawable-xxhdpi/custompin.png
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/R.cs.flag
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/uploadflags.txt
