@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{3DF2DA5B-7B4B-4E34-9927-4A56BFE5F8ED}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Controls/CustomMapRenderer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Controls/CustomSliderRenderer.cs">
     <Files>
-      <File FileName="xamarinmap/Views/MapPage.xaml.cs" Line="29" Column="17" />
-      <File FileName="xamarinmap/Controls/CustomMap.cs" Line="10" Column="49" />
-      <File FileName="xamarinmap/Controls/CustomPin.cs" Line="8" Column="37" />
-      <File FileName="Droid/Controls/CustomMapRenderer.cs" Line="60" Column="45" />
-      <File FileName="iOS/Controls/CustomMapRenderer.cs" Line="14" Column="3" />
-      <File FileName="iOS/Controls/CustomMKAnnotationView.cs" Line="9" Column="9" />
-      <File FileName="iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="xamarinmap/Controls/CustomCircle.cs" Line="7" Column="6" />
-      <File FileName="xamarinmap/Views/MapPage.xaml" Line="8" Column="1" />
+      <File FileName="xamarinmap/Views/MapPage.xaml.cs" Line="45" Column="13" />
+      <File FileName="Droid/Controls/CustomMapRenderer.cs" Line="42" Column="43" />
+      <File FileName="xamarinmap/Views/MapPage.xaml" Line="19" Column="32" />
+      <File FileName="Droid/Controls/CustomButtonRenderer.cs" Line="12" Column="35" />
+      <File FileName="xamarinmap/Controls/CustomButton.cs" Line="1" Column="1" />
+      <File FileName="xamarinmap/obj/Debug/xamarinmap.Views.MapPage.xaml.g.cs" Line="1" Column="1" />
+      <File FileName="Droid/Resources/values/styles.xml" Line="13" Column="34" />
+      <File FileName="../../../../../../Library/Frameworks/Xamarin.Android.framework/Versions/7.4.5-1/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1797" Column="3" />
+      <File FileName="xamarinmap/Controls/CustomSlider.cs" Line="6" Column="35" />
+      <File FileName="Droid/Controls/CustomSliderRenderer.cs" Line="3" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -17,7 +18,7 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.xamarinmap.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3EAE4AE4-4B00-4D29-9403-F146254DADCA" />
-  <MonoDevelop.Ide.ItemProperties.xamarinmap.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus 5 (Lollipop)" />
+  <MonoDevelop.Ide.ItemProperties.xamarinmap.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.80E07B60-BCA0-460E-8DAB-63A6A63022AA" />
+  <MonoDevelop.Ide.ItemProperties.xamarinmap.Droid PreferredExecutionTarget="Android.Nexus 5 (Lollipop)" />
   <MultiItemStartupConfigurations />
 </Properties>
