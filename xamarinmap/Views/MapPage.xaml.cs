@@ -49,5 +49,16 @@ namespace xamarinmap.Views
                 customMap.MoveToRegion(new MapSpan(customMap.VisibleRegion.Center, latlongDegrees, latlongDegrees));
             }
         }
+
+        void MapType_Changed(Object sender, EventArgs e)
+        {
+            int type = Convert.ToInt32(((Button)sender).CommandParameter.ToString());
+            switch(type)
+            {
+                case 1: customMap.MapType = MapType.Street; break;
+                case 2: customMap.MapType = MapType.Satellite; break;
+                case 3: customMap.MapType = MapType.Hybrid; break;
+            }
+        }
     }
 }

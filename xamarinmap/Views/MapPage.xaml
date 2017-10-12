@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps" x:Class="xamarinmap.Views.MapPage" xmlns:controls="clr-namespace:xamarinmap.Controls;assembly=xamarinmap">
 	<StackLayout Spacing = "0">
+        <Grid ColumnSpacing = "0">
+            <Button Text = "Street" Grid.Column = "0" CommandParameter = "1" Clicked = "MapType_Changed"/>
+            <Button Text = "Satellite" Grid.Column = "1" CommandParameter = "2" Clicked = "MapType_Changed"/>
+            <Button Text = "Hybrid" Grid.Column = "2" CommandParameter = "3" Clicked = "MapType_Changed"/>
+        </Grid>
         <controls:CustomMap IsShowingUser = "true" x:Name = "customMap"/>
         <Slider x:Name = "mapSlider" ValueChanged = "SliderValue_Changed"  Maximum = "18" Minimum = "1"/>
     </StackLayout>
