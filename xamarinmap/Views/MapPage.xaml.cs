@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using Xamarin.Forms;
 using Xamarin.Forms.Maps;
+using xamarinmap.Controls;
 
 namespace xamarinmap.Views
 {
@@ -13,15 +14,23 @@ namespace xamarinmap.Views
         public MapPage()
         {
             InitializeComponent();
+            CustomPin pin = new CustomPin 
+            { 
+                Pin = new Pin { Type = PinType.Place, Position = new Position(10.333928, 123.934259), Label = "My Current Location", Address = "Benedicto College"},
+                ID = "10.333928",
+                Url = "http://google.com"
+            };
 
-            myMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(10.333928, 123.934259), Distance.FromMiles(0.3)));
-            isMapLoaded = true;
+            customMap.CustomPins = new List<CustomPin> { pin };
+            customMap.Pins.Add(pin.Pin);
+
+			customMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(10.333928, 123.934259), Distance.FromMiles(0.3)));
+			isMapLoaded = true;
         }
         protected override void OnAppearing()
         {
             base.OnAppearing();
-
-			myMap.MapType = MapType.Street;
+            customMap.MapType = MapType.Street;
         }
 
         void SliderValue_Changed(Object sender, ValueChangedEventArgs e)
@@ -30,7 +39,7 @@ namespace xamarinmap.Views
             {
                 var zoomLevel = e.NewValue; // Between 1 and 18
                 var latlongDegrees = 360 / (Math.Pow(2, zoomLevel));
-                myMap.MoveToRegion(new MapSpan(myMap.VisibleRegion.Center, latlongDegrees, latlongDegrees));
+                customMap.MoveToRegion(new MapSpan(customMap.VisibleRegion.Center, latlongDegrees, latlongDegrees));
             }
         }
     }

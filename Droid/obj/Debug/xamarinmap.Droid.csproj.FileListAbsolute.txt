@@ -23,10 +23,14 @@
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/bin/Debug/xamarinmap.dll
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/bin/Debug/xamarinmap.pdb
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/bin/Debug/FormsViewGroup.pdb
+/Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/bin/Debug/FormsViewGroup.dll.mdb
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/bin/Debug/Xamarin.Forms.Core.pdb
+/Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/bin/Debug/Xamarin.Forms.Core.dll.mdb
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/bin/Debug/Xamarin.Forms.Core.xml
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/bin/Debug/Xamarin.Forms.Platform.Android.pdb
+/Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/bin/Debug/Xamarin.Forms.Platform.Android.dll.mdb
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/bin/Debug/Xamarin.Forms.Xaml.pdb
+/Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/bin/Debug/Xamarin.Forms.Xaml.xml
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/bin/Debug/Xamarin.Forms.Maps.xml
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/xamarinmap.Droid.csprojResolveAssemblyReference.cache
@@ -43,7 +47,3 @@
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/res/drawable-xxhdpi/icon.png
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/R.cs.flag
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/obj/Debug/uploadflags.txt
-/Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/bin/Debug/FormsViewGroup.dll.mdb
-/Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/bin/Debug/Xamarin.Forms.Core.dll.mdb
-/Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/bin/Debug/Xamarin.Forms.Platform.Android.dll.mdb
-/Users/aa04/Projects/preferences/custom_map/xamarinmap/Droid/bin/Debug/Xamarin.Forms.Xaml.dll.mdb

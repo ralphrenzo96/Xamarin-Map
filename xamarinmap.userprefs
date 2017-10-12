@@ -1,7 +1,9 @@
 ﻿<Properties StartupConfiguration="{3DF2DA5B-7B4B-4E34-9927-4A56BFE5F8ED}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="xamarinmap/Controls/CustomMap.cs">
     <Files>
-      <File FileName="xamarinmap/Views/MapPage.xaml.cs" Line="32" Column="69" />
+      <File FileName="xamarinmap/Views/MapPage.xaml.cs" Line="21" Column="22" />
+      <File FileName="xamarinmap/Controls/CustomMap.cs" Line="8" Column="6" />
+      <File FileName="xamarinmap/Controls/CustomPin.cs" Line="10" Column="40" />
       <File FileName="iOS/AppDelegate.cs" Line="24" Column="6" NotebookId="1" />
       <File FileName="Droid/MainActivity.cs" Line="26" Column="60" NotebookId="1" />
       <File FileName="xamarinmap/Views/MapPage.xaml" Line="8" Column="1" NotebookId="1" />
