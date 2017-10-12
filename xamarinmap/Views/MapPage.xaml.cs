@@ -22,6 +22,13 @@ namespace xamarinmap.Views
             };
 
             customMap.CustomPins = new List<CustomPin> { pin };
+
+			customMap.Circle = new CustomCircle
+			{
+				Position = new Position(10.333928, 123.934259),
+				Radius = 300
+			};
+
             customMap.Pins.Add(pin.Pin);
 
 			customMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(10.333928, 123.934259), Distance.FromMiles(0.3)));

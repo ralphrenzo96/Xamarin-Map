@@ -18,6 +18,7 @@ namespace xamarinmap.Droid.Controls
     {
         List<CustomPin> customPins;
         CustomMap formsMap;
+        CustomCircle circle;
         bool isDrawn;
 
         protected override void OnElementChanged(Xamarin.Forms.Platform.Android.ElementChangedEventArgs<Xamarin.Forms.Maps.Map> e)
@@ -33,6 +34,7 @@ namespace xamarinmap.Droid.Controls
             {
                 formsMap = (CustomMap)e.NewElement;
                 customPins = formsMap.CustomPins;
+                circle = formsMap.Circle;
                 Control.GetMapAsync(this);
             }
         }
@@ -54,6 +56,15 @@ namespace xamarinmap.Droid.Controls
                     marker.SetIcon(BitmapDescriptorFactory.FromResource(Resource.Drawable.custompin));
                     NativeMap.AddMarker(marker);
                 }
+
+				var circleOptions = new CircleOptions();
+				circleOptions.InvokeCenter(new LatLng(circle.Position.Latitude, circle.Position.Longitude));
+				circleOptions.InvokeRadius(circle.Radius);
+				circleOptions.InvokeFillColor(0X6688D5D2);
+				circleOptions.InvokeStrokeColor(0X6688D5D2);
+				circleOptions.InvokeStrokeWidth(0);
+
+				NativeMap.AddCircle(circleOptions);
 
                 isDrawn = true;
             }

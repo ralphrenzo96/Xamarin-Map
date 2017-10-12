@@ -1,10 +1,15 @@
 ﻿<Properties StartupConfiguration="{3DF2DA5B-7B4B-4E34-9927-4A56BFE5F8ED}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Controls/CustomMapRenderer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="xamarinmap/Views/MapPage.xaml.cs">
     <Files>
       <File FileName="xamarinmap/Views/MapPage.xaml.cs" Line="20" Column="30" />
-      <File FileName="xamarinmap/Controls/CustomMap.cs" Line="1" Column="1" />
+      <File FileName="xamarinmap/Controls/CustomMap.cs" Line="10" Column="49" />
       <File FileName="xamarinmap/Controls/CustomPin.cs" Line="8" Column="37" />
-      <File FileName="Droid/Controls/CustomMapRenderer.cs" Line="99" Column="16" />
+      <File FileName="Droid/Controls/CustomMapRenderer.cs" Line="37" Column="39" />
+      <File FileName="iOS/Controls/CustomMapRenderer.cs" Line="14" Column="3" />
+      <File FileName="iOS/Controls/CustomMKAnnotationView.cs" Line="9" Column="9" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="xamarinmap/Controls/CustomCircle.cs" Line="7" Column="6" />
+      <File FileName="xamarinmap/Views/MapPage.xaml" Line="8" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -12,7 +17,7 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.xamarinmap.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E8443F8F-6B5D-4C9F-B26D-A66D228EC8D8" />
+  <MonoDevelop.Ide.ItemProperties.xamarinmap.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3EAE4AE4-4B00-4D29-9403-F146254DADCA" />
   <MonoDevelop.Ide.ItemProperties.xamarinmap.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus 5 (Lollipop)" />
   <MultiItemStartupConfigurations />
 </Properties>

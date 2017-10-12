@@ -8,7 +8,6 @@
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/xamarinmap/bin/Debug/Xamarin.Forms.Core.dll.mdb
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/xamarinmap/bin/Debug/Xamarin.Forms.Core.xml
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/xamarinmap/bin/Debug/Xamarin.Forms.Platform.pdb
-/Users/aa04/Projects/preferences/custom_map/xamarinmap/xamarinmap/bin/Debug/Xamarin.Forms.Platform.dll.mdb
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/xamarinmap/bin/Debug/Xamarin.Forms.Xaml.pdb
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/xamarinmap/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/xamarinmap/bin/Debug/Xamarin.Forms.Xaml.xml
