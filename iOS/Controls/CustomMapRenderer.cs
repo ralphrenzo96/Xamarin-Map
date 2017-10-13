@@ -11,7 +11,7 @@ using Xamarin.Forms.Platform.iOS;
 using xamarinmap.Controls;
 using xamarinmap.iOS.Controls;
 
-//[assembly: ExportRenderer(typeof(CustomMap), typeof(CustomMapRenderer))]
+[assembly: ExportRenderer(typeof(CustomMap), typeof(CustomMapRenderer))]
 namespace xamarinmap.iOS.Controls
 {
     public class CustomMapRenderer : MapRenderer
@@ -31,8 +31,8 @@ namespace xamarinmap.iOS.Controls
 					nativeMap.RemoveAnnotations(nativeMap.Annotations);
 					nativeMap.GetViewForAnnotation = null;
 					//nativeMap.CalloutAccessoryControlTapped -= OnCalloutAccessoryControlTapped;
-					nativeMap.DidSelectAnnotationView -= OnDidSelectAnnotationView;
-					nativeMap.DidDeselectAnnotationView -= OnDidDeselectAnnotationView;
+					//nativeMap.DidSelectAnnotationView -= OnDidSelectAnnotationView;
+					//nativeMap.DidDeselectAnnotationView -= OnDidDeselectAnnotationView;
 				}
 			}
 
@@ -44,22 +44,21 @@ namespace xamarinmap.iOS.Controls
 
 				nativeMap.GetViewForAnnotation = GetViewForAnnotation;
 				//nativeMap.CalloutAccessoryControlTapped += OnCalloutAccessoryControlTapped;
-				nativeMap.DidSelectAnnotationView += OnDidSelectAnnotationView;
-				nativeMap.DidDeselectAnnotationView += OnDidDeselectAnnotationView;
+				//nativeMap.DidSelectAnnotationView += OnDidSelectAnnotationView;
+				//nativeMap.DidDeselectAnnotationView += OnDidDeselectAnnotationView;
 			}
 		}
 
 		MKAnnotationView GetViewForAnnotation(MKMapView mapView, IMKAnnotation annotation)
 		{
 			MKAnnotationView annotationView = null;
-
-            System.Diagnostics.Debug.WriteLine("Location " + annotation.Coordinate.Latitude);
-
 			if (annotation is MKUserLocation)
 				return null;
-
+            System.Diagnostics.Debug.WriteLine("Location " + annotation.Coordinate.Latitude + " > " + annotation.Coordinate.Longitude);
 			var anno = annotation as MKPointAnnotation;
-			 var customPin = GetCustomPin(anno);
+
+            CustomPin customPin = GetCustomPin(anno);
+
 			if (customPin == null)
 			{
 				throw new Exception("Custom pin not found");
@@ -91,36 +90,37 @@ namespace xamarinmap.iOS.Controls
 		//	}
 		//}
 
-		void OnDidSelectAnnotationView(object sender, MKAnnotationViewEventArgs e)
-		{
-			//var customView = e.View as CustomMKAnnotationView;
-			//customPinView = new UIView();
+		//void OnDidSelectAnnotationView(object sender, MKAnnotationViewEventArgs e)
+		//{
+		//	//var customView = e.View as CustomMKAnnotationView;
+		//	//customPinView = new UIView();
 
-			//if (customView.Id == "Xamarin")
-			//{
-			//	customPinView.Frame = new CGRect(0, 0, 200, 84);
-			//	var image = new UIImageView(new CGRect(0, 0, 200, 84));
-			//	image.Image = UIImage.FromFile("xamarin.png");
-			//	customPinView.AddSubview(image);
-			//	customPinView.Center = new CGPoint(0, -(e.View.Frame.Height + 75));
-			//	e.View.AddSubview(customPinView);
-			//}
-		}
+		//	//if (customView.Id == "Xamarin")
+		//	//{
+		//	//	customPinView.Frame = new CGRect(0, 0, 200, 84);
+		//	//	var image = new UIImageView(new CGRect(0, 0, 200, 84));
+		//	//	image.Image = UIImage.FromFile("xamarin.png");
+		//	//	customPinView.AddSubview(image);
+		//	//	customPinView.Center = new CGPoint(0, -(e.View.Frame.Height + 75));
+		//	//	e.View.AddSubview(customPinView);
+		//	//}
+		//}
 
-		void OnDidDeselectAnnotationView(object sender, MKAnnotationViewEventArgs e)
-		{
-			if (!e.View.Selected)
-			{
-				customPinView.RemoveFromSuperview();
-				customPinView.Dispose();
-				customPinView = null;
-			}
-		}
+		//void OnDidDeselectAnnotationView(object sender, MKAnnotationViewEventArgs e)
+		//{
+		//	if (!e.View.Selected)
+		//	{
+		//		customPinView.RemoveFromSuperview();
+		//		customPinView.Dispose();
+		//		customPinView = null;
+		//	}
+		//}
 
 		CustomPin GetCustomPin(MKPointAnnotation annotation)
 		{
 			var position = new Position(annotation.Coordinate.Latitude, annotation.Coordinate.Longitude);
 			return customPins.FirstOrDefault(pin => pin.Pin.Position == position);
+			//return null;
 		}
     }
 }

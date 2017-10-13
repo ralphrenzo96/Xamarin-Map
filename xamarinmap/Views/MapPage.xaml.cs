@@ -41,10 +41,6 @@ namespace xamarinmap.Views
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            customMap.MapType = MapType.Street;
-
-            //var position = GetPosition();
-            //Debug.WriteLine("Postion " + position.Result.Latitude);
         }
 
         async Task<Plugin.Geolocator.Abstractions.Position> GetPosition()
