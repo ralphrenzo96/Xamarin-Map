@@ -17,6 +17,7 @@
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/xamarinmap/bin/Debug/Plugin.Geolocator.Abstractions.pdb
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/xamarinmap/bin/Debug/Plugin.Geolocator.pdb
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/xamarinmap/bin/Debug/Plugin.Geolocator.xml
+/Users/aa04/Projects/preferences/custom_map/xamarinmap/xamarinmap/obj/Debug/xamarinmap.csprojResolveAssemblyReference.cache
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/xamarinmap/obj/Debug/xamarinmap.csproj.CoreCompileInputs.cache
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/xamarinmap/obj/Debug/xamarinmap.App.xaml.g.cs
 /Users/aa04/Projects/preferences/custom_map/xamarinmap/xamarinmap/obj/Debug/xamarinmap.Views.MapPage.xaml.g.cs

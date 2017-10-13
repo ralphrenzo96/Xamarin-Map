@@ -1,2 +1,0 @@
-android.app.Application
-com.ralphrenzo.org.xamarin_map
