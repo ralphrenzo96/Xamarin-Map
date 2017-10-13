@@ -124,11 +124,26 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\map_street.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\map_street.imageset\003.1.png" />
+    <ImageAsset Include="Assets.xcassets\map_street.imageset\003.2.png" />
+    <ImageAsset Include="Assets.xcassets\map_street.imageset\003.3.png" />
+    <ImageAsset Include="Assets.xcassets\map_satellite.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\map_satellite.imageset\002.1.png" />
+    <ImageAsset Include="Assets.xcassets\map_satellite.imageset\002.2.png" />
+    <ImageAsset Include="Assets.xcassets\map_satellite.imageset\002.3.png" />
+    <ImageAsset Include="Assets.xcassets\map_hybrid.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\map_hybrid.imageset\004.3.png" />
+    <ImageAsset Include="Assets.xcassets\map_hybrid.imageset\004.2.png" />
+    <ImageAsset Include="Assets.xcassets\map_hybrid.imageset\004.1.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="Assets.xcassets\custompin.imageset\" />
     <Folder Include="Controls\" />
+    <Folder Include="Assets.xcassets\map_street.imageset\" />
+    <Folder Include="Assets.xcassets\map_satellite.imageset\" />
+    <Folder Include="Assets.xcassets\map_hybrid.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
