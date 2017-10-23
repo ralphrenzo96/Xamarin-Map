@@ -43,6 +43,18 @@ namespace xamarinmap.Views
         protected override void OnAppearing()
         {
             base.OnAppearing();
+
+            //GetLocation();
+        }
+
+        public async void GetLocation()
+        {
+            var locator = CrossGeolocator.Current;
+            var position = await locator.GetPositionAsync(TimeSpan.FromSeconds(1.5));
+
+            Debug.WriteLine("Position Status: {0}", position.Timestamp);
+			Debug.WriteLine("Position Latitude: {0}", position.Latitude);
+			Debug.WriteLine("Position Longitude: {0}", position.Longitude);
         }
 
         async Task<Plugin.Geolocator.Abstractions.Position> GetPosition()
