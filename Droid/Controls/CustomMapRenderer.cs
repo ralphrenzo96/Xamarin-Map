@@ -49,6 +49,11 @@ namespace xamarinmap.Droid.Controls
 
             if(e.PropertyName.Equals("VisibleRegion") && !isDrawn)
             {
+                NativeMap.UiSettings.ZoomControlsEnabled = false;
+                NativeMap.UiSettings.MyLocationButtonEnabled = false;
+                NativeMap.UiSettings.RotateGesturesEnabled = false;
+
+
                 NativeMap.Clear();
 
                 foreach (var pin in customPins)

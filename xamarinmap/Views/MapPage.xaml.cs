@@ -18,6 +18,8 @@ namespace xamarinmap.Views
         {
             InitializeComponent();
 
+    
+
 			CustomPin pin = new CustomPin
 			{
 				Pin = new Pin { Type = PinType.Place, Position = new Position(10.333928, 123.934259), Label = "My Current Location", Address = "Benedicto College" },
@@ -41,6 +43,18 @@ namespace xamarinmap.Views
         protected override void OnAppearing()
         {
             base.OnAppearing();
+
+            //GetLocation();
+        }
+
+        public async void GetLocation()
+        {
+            var locator = CrossGeolocator.Current;
+            var position = await locator.GetPositionAsync(TimeSpan.FromSeconds(1.5));
+
+            Debug.WriteLine("Position Status: {0}", position.Timestamp);
+			Debug.WriteLine("Position Latitude: {0}", position.Latitude);
+			Debug.WriteLine("Position Longitude: {0}", position.Longitude);
         }
 
         async Task<Plugin.Geolocator.Abstractions.Position> GetPosition()
