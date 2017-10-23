@@ -18,6 +18,8 @@ namespace xamarinmap.Views
         {
             InitializeComponent();
 
+    
+
 			CustomPin pin = new CustomPin
 			{
 				Pin = new Pin { Type = PinType.Place, Position = new Position(10.333928, 123.934259), Label = "My Current Location", Address = "Benedicto College" },
